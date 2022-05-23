@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 100px;
+    margin: auto;
+}
+
+.logo {
+    width: 68px;
+    height: 55px;
+    display: block;
+}
+
+.logo-a {
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: auto 0 auto 0;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.nav .nav-element a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #333333;
+    margin-right: 60px;
+    font-weight: bold;
+    padding: 4px 0;
+    position: relative;
+}
+  
